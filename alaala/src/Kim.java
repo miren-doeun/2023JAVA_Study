@@ -73,6 +73,7 @@ public class Kim {
 			System.out.println(month+"월은 28일입니다.");break;
 		
 		}
-			
+		
 	}
 }
+
