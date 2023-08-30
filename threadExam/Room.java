@@ -1,0 +1,9 @@
+package threadExam;
+
+public class Room {
+	private int number=1;
+	synchronized public void cleanRoom() {
+		System.out.println(number+ "방을 청소하고 있습니다.");
+		number++;
+	}
+}
